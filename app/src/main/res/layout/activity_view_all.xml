@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewAll">
+
+    <Button
+        android:id="@+id/stViewLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_field"
+        android:text="Logout"
+        app:backgroundTint="#009DFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <ImageView
+        android:id="@+id/stViewTripSharing"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/summer_time_car_beach_with_few_suitcase_vacation_travel_huge_pile_things_holiday_flat_cartoon_style_illustration_landscape_concept_isolated_185796_16"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/summer_time_car_beach_with_few_suitcase_vacation_travel_huge_pile_things_holiday_flat_cartoon_style_illustration_landscape_concept_isolated_185796_16" />
+
+    <ImageView
+        android:id="@+id/stViewHomeSharing"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/circle_cropped"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/circle_cropped" />
+
+    <ImageView
+        android:id="@+id/stViewPartySharing"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="260dp"
+        android:background="@drawable/parysharepay"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stViewHomeSharing"
+        app:layout_constraintVertical_bias="0.545"
+        app:srcCompat="@drawable/parysharepay" />
+
+    <ImageView
+        android:id="@+id/stViewDomesticSharing"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="260dp"
+        android:elevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stViewTripSharing"
+        app:layout_constraintVertical_bias="0.545"
+        app:srcCompat="@drawable/domestic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
