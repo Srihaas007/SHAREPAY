@@ -1,4 +1,4 @@
-# SharePay
+
 # SharePay: Simplify Bill Splitting with Friends and Flatmates
 
 ## Overview
